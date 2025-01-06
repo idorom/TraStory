@@ -1,0 +1,41 @@
+.likeBtn{
+    height: 30px;
+    width: 30px;
+    /* padding: 0 30px; */
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    /* border-radius: 6px; */
+    /* margin-left: 8px;
+    margin-bottom: 4px; */
+    /* direction: middle; */
+
+}
+
+.author{
+    font-size: 15px;
+}
+
+#rowIcons{
+    direction: rtl;
+}
+
+.backBtn{
+    height: 30px;
+    /* width: 30px; */
+    padding: 0 30px;
+    font-size: 18px;
+    color:antiquewhite;
+    border-color: rgba(45, 22, 3, 0.801);
+    background-color: rgba(45, 22, 5, 0.801);
+    text-decoration-color: rgb(199, 108, 10);
+    border-radius: 6px;
+
+}
+
+.scroll
+{
+    max-height: 310px;
+    overflow-y: scroll;
+    behavior: smooth;
+}

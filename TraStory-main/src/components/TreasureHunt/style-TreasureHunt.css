@@ -1,0 +1,29 @@
+#ScanBtn {
+  height: 30px;
+  padding: 0 30px;
+  font-size: 18px;
+  border-color: rgb(134, 104, 141);
+  background-color: rgb(134, 104, 141);
+
+  border-radius: 12px;
+}
+
+#coloredscroll {
+  max-height: 100px;
+  width: 340px;
+  overflow-y: auto;
+  background-color: rgb(227, 194, 233);
+  border-radius: 9px;
+  direction: rtl;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.scrollhost {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollhost::-webkit-scrollbar {
+  display: none;
+}
